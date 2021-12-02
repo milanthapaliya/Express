@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100vw;
+    height: 10vh;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+ul.menus{
+    list-style: none;
+    display: flex;
+    
+}
+
+ul.icons{
+    list-style: none;
+    display: flex;
+    
+}
+
+li{
+    padding: 15px;
+}
+.fab{
+    color: darkcyan;
+}
